@@ -1,0 +1,64 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #daa520;
+}
+
+.hero {
+    background-image: url(images/franklin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#visit-franklin {
+    background-color: hsl(133, 39%, 81%, 0.8);
+    margin: 0;
+    padding: 10px 5px 10px 5px;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#enjoy-franklin {
+    background-color: hsl(163, 74%, 15%, 0.8);
+    padding: 10px 5px 10px 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.activities {
+    background-color: beige;
+    color: #39393A;
+    padding: 20px;
+}
+
+.guide {
+    color: #39393A;
+    padding: 20px;
+}
